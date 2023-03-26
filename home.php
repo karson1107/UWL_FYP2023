@@ -3,7 +3,7 @@
 include "./head.php";
 session_start();
 
-if (isset($_SESSION["name"]) && ($_SESSION["user_id"])) {
+if (isset($_SESSION["name"]) && ($_SESSION["login_id"])) {
 } else {
     header("Location: index.php");
 }
